@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Earth Kratom
                 </div>
 
                 <div class="links">
