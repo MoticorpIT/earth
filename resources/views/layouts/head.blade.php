@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {{--========== Page Ttile ==========--}}
-<title>ProLand - Product Landing Page Template</title>
+<title> @yield('meta-title') </title>
 
 {{-- Google Font --}}
 <link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>

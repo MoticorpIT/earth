@@ -2,7 +2,10 @@
     <div class="container">
         {{--========== Brand and toggle get grouped for better mobile display ==========--}}
         <div class="navbar-header">
-            <a class="navbar-brand" href="#header"><img src="/images/theme/logo-white.png" class="white-logo" alt=""><img src="/images/theme/logo.png" class="dark-logo" alt=""></a>
+            <a class="navbar-brand" href="/">
+                <img src="/images/theme/logo-white.png" class="white-logo" alt="">
+                <img src="/images/theme/logo.png" class="dark-logo" alt="">
+            </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
