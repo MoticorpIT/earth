@@ -277,46 +277,22 @@
                 <p>You are unique. You have unique style and you need a unique watch for you. Choose from our collection of watches.</p>
             </div>
             <div class="row collections">
-                {{--==========Collection Items==========--}}
-                <div class="col-sm-6 col-md-3 item wow fadeIn">
-                    <div class="row m0 featured-img">
-                        <img src="/images/theme/collection-1.jpg" alt="">
+                @foreach ($products as $product)
+                    <div class="col-sm-6 col-md-3 item wow fadeIn">
+                        <div class="row m0 featured-img">
+                            <img src="/images/theme/collection-1.jpg" alt="">
+                        </div>
+                        <h4 class="title">{{$product->name}}</h4>
+                        <h5 class="category text-uppercase">
+                            @foreach($product->categories as $key => $category)
+                                @if($key) ,&nbsp; @endif
+                                {{$category->name}}
+                            @endforeach
+                        </h5>
+                        <h4 class="price">${{$product->price}}</h4>
+                        <a href="/products/{{$product->slug}}" class="btn">VIEW DETAILS</a>
                     </div>
-                    <h4 class="title">Watch Limited Edition</h4>
-                    <h5 class="category">Stainless steel case</h5>
-                    <h4 class="price">$399</h4>
-                    <a href="#product-choose" class="btn">CHOOSE</a>
-                </div>
-                {{--==========Collection Items==========--}}
-                <div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay="0.5s">
-                    <div class="row m0 featured-img">
-                        <img src="/images/theme/collection-2.jpg" alt="">
-                    </div>
-                    <h4 class="title">Watch Bracelet</h4>
-                    <h5 class="category">White strap &amp; Stainless steel</h5>
-                    <h4 class="price">$299</h4>
-                    <a href="#product-choose" class="btn">CHOOSE</a>
-                </div>
-                {{--==========Collection Items==========--}}
-                <div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay="1s">
-                    <div class="row m0 featured-img">
-                        <img src="/images/theme/collection-3.jpg" alt="">
-                    </div>
-                    <h4 class="title">Watch Original</h4>
-                    <h5 class="category">The FirstWatch ever released</h5>
-                    <h4 class="price">$249</h4>
-                    <a href="#product-choose" class="btn">CHOOSE</a>
-                </div>
-                {{--==========Collection Items==========--}}
-                <div class="col-sm-6 col-md-3 item wow fadeIn" data-wow-delay="1.5s">
-                    <div class="row m0 featured-img">
-                        <img src="/images/theme/collection-4.jpg" alt="">
-                    </div>
-                    <h4 class="title">Watch Soprts Edition</h4>
-                    <h5 class="category">Water proof and Fitness tracking</h5>
-                    <h4 class="price">$399</h4>
-                    <a href="#product-choose" class="btn">CHOOSE</a>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>
