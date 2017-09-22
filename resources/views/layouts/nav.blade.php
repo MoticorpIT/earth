@@ -41,9 +41,4 @@
             </ul>
         </div>
     </div>
-<<<<<<< HEAD
 </nav>
-=======
-    {{--========== /.container-fluid ==========--}}
-</nav>
->>>>>>> master
