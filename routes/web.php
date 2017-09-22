@@ -15,4 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/faq', function() {
+	return view('faq');
+});
+
+Route::get('/about', function() {
+	return view('about');
+});
+
 Route::resource('products', 'ProductController');
+
+Route::get('products/categories/{category}', 'CategoryController@index');
