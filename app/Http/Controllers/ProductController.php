@@ -2,11 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Product;
+use App\Category;
+use Illuminate\Http\Request;
+use App\Http\Requests\ProductFormRequest;
 
 class ProductController extends Controller
 {
+
+    // FORM AUTHENTICATION
+    public function __construct(){
+        $this->middleware('auth');
+    }
+
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +23,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::all();
+        $products = Product::orderBy('created_at', 'DESC')->get();
         return view('products.index', compact('products'));
     }
 
@@ -23,9 +32,10 @@ class ProductController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Product $products, Category $categories)
     {
-        //
+        $products = Product::all();
+        return view('products.create', compact('products', 'products', 'categories'));
     }
 
     /**
@@ -34,9 +44,28 @@ class ProductController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ProductFormRequest $request)
     {
-        //
+        // CREATE NEW PRODUCT
+        $product = new Product(
+            [
+                'name' => $request->name,
+                'slug' => str_slug($request->name, '-'),
+                'msrp' => $request->msrp,
+                'default_price' => $request->default_price,
+                'pack_size' => $request->pack_size,
+                'upc' => $request->upc,
+                'description' => $request->description,
+                'short_descript' => $request->short_descript
+            ]
+        );
+
+        // SAVE PRODUCT WITH RELATED CATEGORY
+        $product->save();
+        $product->categories()->attach($request->category);
+        
+        //PRODUCTS INDEX PAGE
+        return redirect('products')->with('message', 'Product Added!');
     }
 
     /**
@@ -45,9 +74,9 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Product $products)
     {
-        //
+        return view('products.show', compact('products'));
     }
 
     /**
@@ -56,9 +85,9 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Product $products, Category $categories)
     {
-        //
+        return view('products.edit', compact('products', 'categories'));
     }
 
     /**
@@ -68,9 +97,28 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(ProductFormRequest $request, Product $product)
     {
-        //
+        // CREATE UPDATED PRODUCT
+        $product->update(
+            [
+                'name' => $request->name,
+                'slug' => str_slug($request->name, '-'),
+                'msrp' => $request->msrp,
+                'default_price' => $request->default_price,
+                'pack_size' => $request->pack_size,
+                'upc' => $request->upc,
+                'description' => $request->description,
+                'short_descript' => $request->short_descript,
+                'active' => $request->active
+            ]
+        );
+
+        // SAVE UPDATED PRODUCT W RELATED CATEOGRIES
+        $product->categories()->sync($request->category);
+
+        // PRODUCT SHOW PAGE
+        return redirect('products')->with('message', 'Product Modified Sucessfully!');
     }
 
     /**
