@@ -6,8 +6,8 @@
 
             <div class="row">
                 <div class="col-md-7 split-header m-t-100 text-left">
-                    <h2>Earth Kratom Rules</h2>
-                    <p>Holisticly incentivize revolutionary collaboration and idea sharing before cost effective users. Actual focused services before highly efficient human capital. </p>
+                    <h2>100% Organic!</h2>
+                    <p>Earth Kratom is made with love from the very highest quality leaves imported directly from Indonesia and grown on holistic, chemical-free farms.</p>
                 </div>
 
                 {{-- Image Section --}}
@@ -348,23 +348,23 @@
     <section class="row split-columns">
         <div class="row m0 split-column wow fadeIn">
             <div class="col-sm-6 image text-right">
-                <img src="/images/theme/split-1.jpg" alt="">
+                <img src="/images/promo-trainwreck.jpg" alt="">
             </div>
             <div class="col-sm-6 texts">
                 <div class="texts-inner row m0">
-                    <h2>Every Apps you wanted</h2>
-                    <p>You won’t just send and receive messages, calls, and mail more easily and efficiently. You’ll express yourself in unique, fun, and more personal ways. Communicating with Watch is discreet, sophisticated, and nuanced. a whole new way to connect with others.</p>
+                    <h2>Trainwreck</h2>
+                    <p>As one of our best sellers, Trainwreck is our personal blend of 11 different kratom strains all colliding together to create a truly striking experience. This is something you won't want to miss.</p>
                 </div>
             </div>
         </div>
         <div class="row m0 split-column wow fadeIn">
             <div class="col-sm-6 col-sm-push-6 image">
-                <img src="/images/theme/split-2.jpg" alt="">
+                <img src="/images/promo-malay.jpg" alt="">
             </div>
             <div class="col-sm-6 col-sm-pull-6 texts">
                 <div class="texts-inner row m0">
-                    <h2>Health and Fitness</h2>
-                    <p>Fitness isn’t just about running, biking, or hitting the gym. It’s also about being active throughout the day. Watch measures all the ways you move, such as walking the dog, taking the stairs, or playing with your kids. It even keeps track of when you stand up.</p>
+                    <h2>Green Malay</h2>
+                    <p>One of our newest strains in our lineup. This strain really hones in on stress and works to create a clear mind and mellow mood.</p>
                 </div>
             </div>
         </div>
