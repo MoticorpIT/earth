@@ -24,5 +24,6 @@ Route::get('/about', function() {
 });
 
 Route::resource('products', 'ProductController');
+Route::get('/', 'ProductController@home');
 
 Route::get('products/categories/{category}', 'CategoryController@index');

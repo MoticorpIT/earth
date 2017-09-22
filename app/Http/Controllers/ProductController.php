@@ -15,9 +15,18 @@ class ProductController extends Controller
     //     $this->middleware('auth');
     // }
 
+    /**
+     * Display Products w Categories on HOME page
+     */
+    public function home()
+    {
+        $products = Product::orderBy('created_at', 'DESC')->get();
+        return view('welcome', compact('products'));
+    }
+
 
     /**
-     * Display a listing of the resource.
+     * Display Products w Categories on PRODUCTS INDEX page
      *
      * @return \Illuminate\Http\Response
      */
