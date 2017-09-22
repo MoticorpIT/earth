@@ -1,3 +1,11 @@
 .no-drop-shadow {
 	box-shadow: none;
 }
+
+.products-index {
+	padding: 40px 0 88px;
+}
+
+.show-overflow {
+	overflow: visible;
+}

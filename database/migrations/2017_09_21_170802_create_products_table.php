@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->string('slug');
             $table->decimal('price');
+            $table->string('upc');
             $table->string('description')->nullable();
             $table->string('short_descript')->nullable();
             $table->boolean('active')->default(1);

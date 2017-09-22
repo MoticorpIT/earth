@@ -5,6 +5,17 @@
             <a class="navbar-brand" href="/">
                 <img src="/images/theme/logo-white.png" class="white-logo" alt="">
                 <img src="/images/theme/logo.png" class="dark-logo" alt="">
+
+                {{-- @if ($request->is('/products/*'))
+                    <img src="/images/theme/logo-white.png" class="white-logo" alt="">
+                @else
+                    <img src="/images/theme/logo-white.png" class="white-logo" alt="">
+                    <img src="/images/theme/logo.png" class="dark-logo" alt="">
+                @endif --}}
+
+                {{-- @if()
+                @endif
+                {{ Request::is('/') ? '<img src="/images/theme/logo-white.png" class="white-logo" alt=""> <img src="/images/theme/logo.png" class="dark-logo" alt="">' : '@yield ("nav-logo")' }} --}}
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -18,8 +29,8 @@
         <div class="collapse navbar-collapse" id="main-navbar">
             <a href="http://indegogo.com/" class=" btn btn-warning pull-right hidden-sm hidden-xs">Back this project</a>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#product">Product</a></li>
-                <li><a href="#features">Features</a></li>
+                <li class="{{ Request::is('products') ? 'active' : '' }}"><a href="/products">Product</a></li>
+                <li class="{{ Request::is('info') ? 'active' : '' }}"><a href="/info">Information</a></li>
                 <li><a href="#reviews">Reviews</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>

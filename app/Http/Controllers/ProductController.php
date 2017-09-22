@@ -11,9 +11,9 @@ class ProductController extends Controller
 {
 
     // FORM AUTHENTICATION
-    public function __construct(){
-        $this->middleware('auth');
-    }
+    // public function __construct(){
+    //     $this->middleware('auth');
+    // }
 
 
     /**
@@ -34,8 +34,7 @@ class ProductController extends Controller
      */
     public function create(Product $products, Category $categories)
     {
-        $products = Product::all();
-        return view('products.create', compact('products', 'products', 'categories'));
+        return view('products.create', compact('products', 'categories'));
     }
 
     /**
@@ -51,9 +50,7 @@ class ProductController extends Controller
             [
                 'name' => $request->name,
                 'slug' => str_slug($request->name, '-'),
-                'msrp' => $request->msrp,
-                'default_price' => $request->default_price,
-                'pack_size' => $request->pack_size,
+                'price' => $request->price,
                 'upc' => $request->upc,
                 'description' => $request->description,
                 'short_descript' => $request->short_descript
@@ -74,9 +71,9 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $products)
+    public function show(Product $product, Category $categories)
     {
-        return view('products.show', compact('products'));
+        return view('products.show', compact('product', 'categories'));
     }
 
     /**
@@ -85,9 +82,9 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Product $products, Category $categories)
+    public function edit(Product $product, Category $categories)
     {
-        return view('products.edit', compact('products', 'categories'));
+        return view('products.edit', compact('product', 'categories'));
     }
 
     /**
