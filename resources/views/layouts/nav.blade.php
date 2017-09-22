@@ -14,6 +14,7 @@
 
                 {{-- 
                 {{ Request::is('/') ? '<img src="/images/theme/logo-white.png" class="white-logo" alt=""> <img src="/images/theme/logo.png" class="dark-logo" alt="">' : '@yield ("nav-logo")' }} --}}
+
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -40,4 +41,9 @@
             </ul>
         </div>
     </div>
+<<<<<<< HEAD
 </nav>
+=======
+    {{--========== /.container-fluid ==========--}}
+</nav>
+>>>>>>> master
