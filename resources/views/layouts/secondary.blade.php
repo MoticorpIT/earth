@@ -7,7 +7,7 @@
 
 <body data-scroll-animation="false">
 
-    <header class="row" id="header">
+    <header class="row not-alt-bg" id="header">
         @include('layouts.nav')
     </header>
 

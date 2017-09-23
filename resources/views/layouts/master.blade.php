@@ -5,7 +5,7 @@
     @include('layouts.head')
 </head>
 
-<body class="home" data-scroll-animation="true">
+<body class="home" data-scroll-animation="false">
 
     <header class="row alt-bg" id="header">
         @include('layouts.nav')

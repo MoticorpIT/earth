@@ -9,3 +9,7 @@
 .show-overflow {
 	overflow: visible;
 }
+
+.not-alt-bg .white-logo {
+	display: none;
+}
