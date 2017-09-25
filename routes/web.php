@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ProductController@home');
 
 Route::get('/faq', function() {
 	return view('faq');
@@ -24,6 +22,6 @@ Route::get('/about', function() {
 });
 
 Route::resource('products', 'ProductController');
-Route::get('/', 'ProductController@home');
+
 
 Route::get('products/categories/{category}', 'CategoryController@index');
