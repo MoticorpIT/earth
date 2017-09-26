@@ -19,6 +19,7 @@ class CreateProductsTable extends Migration
             $table->string('slug');
             $table->decimal('price');
             $table->string('upc');
+            $table->string('img_url');
             $table->string('description')->nullable();
             $table->string('short_descript')->nullable();
             $table->boolean('active')->default(1);
