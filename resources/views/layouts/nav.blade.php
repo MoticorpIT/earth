@@ -3,8 +3,8 @@
 
         <div class="navbar-header">
             <a class="navbar-brand" href="/">
-                <img src="/images/theme/logo-white.png" class="white-logo" alt="">
-                <img src="/images/theme/logo.png" class="dark-logo" alt="">
+                <img src="/images/ek-logo-white.png" class="white-logo" alt="">
+                <img src="/images/ek-logo.png" class="dark-logo" alt="">
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
