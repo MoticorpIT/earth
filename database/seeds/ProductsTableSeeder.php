@@ -21,16 +21,18 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/red-bali-100ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'Red Bali - 1kg Bag',
 					'slug' => 'red-bali-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '707129254313',
 					'img_url' => '/images/products/red-bali-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -41,6 +43,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/red-bali-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -52,6 +55,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/theme/the-watch-1.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -62,6 +66,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/red-bali-60g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -72,16 +77,18 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/red-bali-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'Green Borneo - 1kg Bag',
 					'slug' => 'green-borneo-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '707129254368',
 					'img_url' => '/images/products/green-borneo-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -92,6 +99,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-borneo-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -103,6 +111,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-borneo-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -114,16 +123,18 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-borneo-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'Green Hulu Kapuas  - 1kg Bag',
 					'slug' => 'green-hulu-kapuas-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '704438475477',
 					'img_url' => '/images/products/green-hulu-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -134,6 +145,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-hulu-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -145,6 +157,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-hulu-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -156,16 +169,18 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-hulu-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'Green Malay - 1kg Bag',
 					'slug' => 'green-malay-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '704438475514',
 					'img_url' => '/images/products/green-malay-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -176,6 +191,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-malay-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -187,6 +203,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-malay-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -198,16 +215,18 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-malay-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'Green Vietnam - 1kg Bag',
 					'slug' => 'green-vietnam-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '704438475507',
 					'img_url' => '/images/products/green-vietnam-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -218,6 +237,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-vietnam-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -229,6 +249,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-vietnam-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -240,6 +261,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-vietnam-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -250,6 +272,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-maeng-da-100ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -261,16 +284,18 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-maeng-da-150g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'Green Maeng Da - 1kg Bag',
 					'slug' => 'green-maeng-da-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '707129254450',
 					'img_url' => '/images/products/green-maeng-da-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -281,6 +306,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-maeng-da-250g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -291,6 +317,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-maeng-da-30ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -301,6 +328,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-maeng-da-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -312,6 +340,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-maeng-da-42ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -322,6 +351,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-maeng-da-500ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -333,6 +363,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/green-maeng-da-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -343,6 +374,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-maeng-da-60g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -353,6 +385,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-maeng-da-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -363,36 +396,40 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/green-maeng-da-72ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
-					'name' => 'Maeng Da - Complete 9.9 Extract',
-					'slug' => 'maeng-da-complete-9.9-extract',
+					'name' => 'Complete 9.9 Extract',
+					'slug' => 'complete-9.9-extract',
 					'price' => '19.99',
 					'upc' => '707129254351',
 					'img_url' => '/images/products/extract-complete.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
-					'name' => 'Maeng Da - Earth Kratom 9.9 Extract',
-					'slug' => 'maeng-da-earth-kratom-9.9-extract',
+					'name' => 'Earth Kratom 9.9 Extract',
+					'slug' => 'earth-kratom-9.9-extract',
 					'price' => '19.99',
 					'upc' => '704438475422',
 					'img_url' => '/images/products/extract-earth-kratom.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'Red Hulu Kapuas - 1kg Bag',
 					'slug' => 'red-hulu-kapuas-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '704438475460',
 					'img_url' => '/images/products/red-hulu-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -403,6 +440,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/red-hulu-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -414,6 +452,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/red-hulu-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -425,16 +464,18 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/red-hulu-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'Red Maeng Da - 1kg Bag',
 					'slug' => 'red-maeng-da-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '707129254504',
 					'img_url' => '/images/products/red-maeng-da-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -445,6 +486,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/red-maeng-da-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -456,6 +498,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/red-maeng-da-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -467,6 +510,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/red-maeng-da-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -477,6 +521,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/trainwreck-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -487,6 +532,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/trainwreck-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -498,6 +544,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/trainwreck-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -508,6 +555,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/trainwreck-60g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -519,16 +567,18 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/trainwreck-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'White Borneo - 1kg Bag',
 					'slug' => 'white-borneo-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '707129254443',
 					'img_url' => '/images/products/white-borneo-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -539,6 +589,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/white-borneo-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -550,6 +601,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/white-borneo-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -561,16 +613,18 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/white-borneo-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
 					'name' => 'White Maeng Da - 1kg Bag',
 					'slug' => 'white-maeng-da-1kg-bag',
-					'price' => '89.99',
+					'price' => '189.99',
 					'upc' => '707129254511',
 					'img_url' => '/images/products/white-maeng-da-1kg.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -581,6 +635,7 @@ class ProductsTableSeeder extends Seeder
 					'img_url' => '/images/products/white-maeng-da-30g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '1',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -592,6 +647,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/white-maeng-da-500g.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -603,6 +659,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/white-maeng-da-65ct.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				],
 				[
@@ -614,6 +671,7 @@ class ProductsTableSeeder extends Seeder
 					// 'img_url' => '/images/products/capsules-00-empty.png',
 					'description' => 'a long description',
 					'short_descript' => 'a short descript',
+					'feature' => '0',
 					'created_at' => date("Y-m-d H:i:s")
 				]
 	        ]
