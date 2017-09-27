@@ -21,8 +21,8 @@
             <div class="row collections">
                 @foreach ($products as $product)
                     <div class="col-sm-6 col-md-3 item wow fadeIn">
-                        <div class="row m0 featured-img">
-                            <img src="/images/theme/collection-1.jpg" alt="">
+                        <div class="row m0 featured-img" style="width:263px;height:263px;background-color:#f6fbff;">
+                            <img src="{{$product->img_url}}" alt="{{$product->name}}" style="max-width:60%;padding:10px;">
                         </div>
                         <h4 class="title">{{$product->name}}</h4>
                         <h5 class="category text-uppercase">
