@@ -266,6 +266,10 @@ class CategoriesTableSeeder extends Seeder
 					'product_id' => '57',
 					'category_id' => '2'
 				],
+				[
+					'product_id' => '58',
+					'category_id' => '2'
+				]
 	        ]
 	    );
     }

@@ -27,22 +27,22 @@
                 <div class="product-img-gallery">
                     <div id="product-imgs" class="carousel slide" data-ride="carousel">
 
-                        <ol class="carousel-indicators">
+                        {{-- <ol class="carousel-indicators">
                             <li data-target="#product-imgs" data-slide-to="0" class="active"></li>
                             <li data-target="#product-imgs" data-slide-to="1"></li>
                             <li data-target="#product-imgs" data-slide-to="2"></li>
-                        </ol>
+                        </ol> --}}
 
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <img src="/images/theme/the-watch-1.png" alt="watch-1">
+                                <img src="{{$product->img_url}}" alt="{{$product->name}}">
                             </div>
-                            <div class="item">
+                            {{-- <div class="item">
                                 <img src="/images/theme/the-watch-2.png" alt="watch-2">
                             </div>
                             <div class="item">
                                 <img src="/images/theme/the-watch-3.png" alt="watch-3">
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>

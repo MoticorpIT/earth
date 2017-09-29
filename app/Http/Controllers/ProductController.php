@@ -20,7 +20,11 @@ class ProductController extends Controller
      */
     public function home()
     {
-        $products = Product::orderBy('created_at', 'DESC')->get();
+        // $products = Product::orderBy('name')->get();
+        $products = Product::where('feature', '=', 1)
+                            ->take(8)
+                            ->inRandomOrder()
+                            ->get();
         return view('welcome', compact('products'));
     }
 
