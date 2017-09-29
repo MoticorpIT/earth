@@ -26,13 +26,11 @@
         <div class="container">
             <div class="row section-header wow fadeInUp">
                 <h2>the product</h2>
-                <p>Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.</p>
+                <p>Karma-Kratom.com is the leading provider for top shelf Maeng Da Kratom on the internet. Every bag, jar or bottle of Karma Kratom contains the best Maeng Da money can buy, but without the high prices you typically find. Available in various sizes and in three different forms: powder, capsules and liquid extract. Not sure which to get? Try our Starter Bundle, it includes a sampling of all three.</p>
             </div>
-
             <div class="row apple-watch-note-feature text-center">
-                <img src="/images/theme/apple-watch-2.png" alt="">
-
-                {{--==========Feature Noted top right==========--}}
+                <img src="/images/kratom-pile.jpg" alt="Pile of Karma Kratom Powder">
+                {{-- ==========Feature Noted top right========== --}}
                 <div class="feature-note right top wow fadeInRight">
                     <div class="indicator">
                         <div class="plus-icon">
@@ -40,10 +38,12 @@
                         </div>
                     </div>
                     <div class="feature-name">
-                        metalic strap
+                        From High Potency
+                        <br>
+                        Mature Trees
                     </div>
                 </div>
-                {{--==========Feature Noted top left==========--}}
+                {{-- ==========Feature Noted top left========== --}}
                 <div class="feature-note left top wow fadeInLeft">
                     <div class="indicator">
                         <div class="plus-icon">
@@ -51,10 +51,12 @@
                         </div>
                     </div>
                     <div class="feature-name">
-                        Gps tracker
+                        The Purest Maeng Da
+                        <br>
+                        on the Market
                     </div>
                 </div>
-                {{--==========Feature Noted bottom right==========--}}
+                {{-- ==========Feature Noted bottom right========== --}}
                 <div class="feature-note right bottom wow fadeInUp">
                     <div class="indicator">
                         <div class="plus-icon">
@@ -62,10 +64,12 @@
                         </div>
                     </div>
                     <div class="feature-name">
-                        Bluetooth 4.2
+                        100% Natural
+                        <br>
+                        and Organic
                     </div>
                 </div>
-                {{--==========Feature Noted bottom left==========--}}
+                {{-- ==========Feature Noted bottom left========== --}}
                 <div class="feature-note left bottom wow fadeInLeft">
                     <div class="indicator">
                         <div class="plus-icon">
@@ -73,196 +77,9 @@
                         </div>
                     </div>
                     <div class="feature-name">
-                        water resistant
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{--==========How its Works==========--}}
-    <section class="row how-it-works">
-        <div class="container">
-            <div class="row section-header v2 wow fadeInUp">
-                <h2>how it works</h2>
-                <p>Everybody loves tech gadgets, But our’s is different. Here is how it works. Its should be simple. Add how easy is to install your product</p>
-            </div>
-            <div class="row work-processes">
-                {{--==========Work Process==========--}}
-                <div class="col-sm-4 work-process wow fadeIn">
-                    <div class="row m0 process-icon">
-                        <img src="/images/theme/desktop.png" alt="">
-                    </div>
-                    <h3>Connect Device</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur de elit, sed do tempor incididunt ut labore eta rehenderit in voluptate velit.</p>
-                </div>
-                {{--==========Work Process==========--}}
-                <div class="col-sm-4 work-process wow fadeIn" data-wow-delay="0.5s">
-                    <div class="row m0 process-icon">
-                        <img src="/images/theme/toggles.png" alt="">
-                    </div>
-                    <h3>Configure it</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur de elit, sed do tempor incididunt ut labore eta rehenderit in voluptate velit.</p>
-                </div>
-                {{--==========Work Process==========--}}
-                <div class="col-sm-4 work-process wow fadeIn" data-wow-delay="1s">
-                    <div class="row m0 process-icon">
-                        <img src="/images/theme/trophy.png" alt="">
-                    </div>
-                    <h3>Yay! Done.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur de elit, sed do tempor incididunt ut labore eta rehenderit in voluptate velit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{--==========The Benefits==========--}}
-    <section class="row the-benefits" id="features">
-        <div class="container">
-            <div class="row section-header wow fadeInUp">
-                <h2>The Benefits</h2>
-                <p>List out your product’s benefit here. A small description about what it is and how it helps the user. You can also add some icons.</p>
-            </div>
-            <div class="row benefit-notes">
-                {{--==========Single Benefit==========--}}
-                <div class="col-sm-6 col-md-4 benefit wow fadeInUp">
-                    <div class="media">
-                        <div class="media-left">
-                            <span><i class="li_location"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>GPS Tracking</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                </div>
-                {{--==========Single Benefit==========--}}
-                <div class="col-sm-6 col-md-4 benefit wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="media">
-                        <div class="media-left">
-                            <span><i class="li_heart"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Heartbeat Analysis</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                </div>
-                {{--==========Single Benefit==========--}}
-                <div class="col-sm-6 col-md-4 benefit wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="media">
-                        <div class="media-left">
-                            <span><i class="li_lock"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Security first</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                </div>
-                {{--==========Single Benefit==========--}}
-                <div class="col-sm-6 col-md-4 benefit wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="media">
-                        <div class="media-left">
-                            <span><i class="li_bulb"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Innovative idea</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                </div>
-                {{--==========Single Benefit==========--}}
-                <div class="col-sm-6 col-md-4 benefit wow fadeInUp" data-wow-delay="1.2s">
-                    <div class="media">
-                        <div class="media-left">
-                            <span><i class="li_banknote"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Save your bills</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                </div>
-                {{--==========Single Benefit==========--}}
-                <div class="col-sm-6 col-md-4 benefit wow fadeInUp" data-wow-delay="1.5s">
-                    <div class="media">
-                        <div class="media-left">
-                            <span><i class="li_lab"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Proven technology</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{--==========Left Right Content==========--}}
-    <section class="row left-right-contents">
-        <div class="container">
-            <div class="row ">
-                <div class="col-sm-12 col-md-4 col-md-push-4 text-center wow fadeIn">
-                    <img src="/images/theme/apple-watch-3.png" alt="">
-                </div>
-                <div class="col-md-4 col-sm-6 col-md-pull-4 left-content">
-                    <div class="media wow fadeInUp">
-                        <div class="media-left">
-                            <span><i class="li_key"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Fast and secure</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                    <div class="media wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="media-left">
-                            <span><i class="li_megaphone"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Voice Assistant</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                    <div class="media wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="media-left">
-                            <span><i class="li_diamond"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Apps you love</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 right-content">
-                    <div class="media wow fadeInUp">
-                        <div class="media-left">
-                            <span><i class="li_like"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Stay in touch</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                    <div class="media wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="media-left">
-                            <span><i class="li_user"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Designed for you</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
-                    </div>
-                    <div class="media wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="media-left">
-                            <span><i class="li_clock"></i></span>
-                        </div>
-                        <div class="media-body">
-                            <h4>Precise timepiece</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                        </div>
+                        Available in a Large
+                        <br>
+                        Variety of Sizes
                     </div>
                 </div>
             </div>
@@ -270,7 +87,7 @@
     </section>
 
     {{--==========Our Collection==========--}}
-    <section class="row our-collection">
+    <section class="row our-collection" id="nav-products">
         <div class="container">
             <div class="row section-header wow fadeInUp">
                 <h2>Top Sellers</h2>
@@ -293,29 +110,6 @@
                         <a href="/products/{{$product->slug}}" class="btn">VIEW DETAILS</a>
                     </div>
                 @endforeach
-            </div>
-        </div>
-    </section>
-
-    {{--==========The Watch==========--}}
-    <section class="row the-watch">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1 text-center the-watch-img wow zoomIn">
-                    <img src="/images/theme/the-watch.png" alt="" class="img-responsive">
-                </div>
-                <div class="col-md-6 the-watch-features">
-                    <div class="row section-header v3 wow fadeIn">
-                        <h2>The Watch</h2>
-                        <p>With an image in the side of this conetent, you can use this section to write about some cool thing about your product or its features.</p>
-                    </div>
-                    <ul class="nav">
-                        <li class="wow fadeIn" data-wow-delay="0.2s">Compatible with all devices</li>
-                        <li class="wow fadeIn" data-wow-delay="0.4s">Android and iOS Support</li>
-                        <li class="wow fadeIn" data-wow-delay="0.6s">Activity &amp; Health Tracker</li>
-                        <li class="wow fadeIn" data-wow-delay="0.8s">Read &amp; reply to messages</li>
-                    </ul>
-                </div>
             </div>
         </div>
     </section>
@@ -376,25 +170,8 @@
         </div>
     </section>
 
-    {{--==========Featured On==========--}}
-    <section class="row  featured-on">
-        <div class="container">
-            <div class="row">
-                <h3>As featured on</h3>
-                <ul class="nav nav-justified">
-                    <li class="wow fadeInUp" data-wow-delay="0.2s"><img src="/images/theme/featured1.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="0.4s"><img src="/images/theme/featured2.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="0.6s"><img src="/images/theme/featured3.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="0.8s"><img src="/images/theme/featured4.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="1s"><img src="/images/theme/featured5.png" alt=""></li>
-                    <li class="wow fadeInUp" data-wow-delay="1.2s"><img src="/images/theme/featured6.png" alt=""></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
     {{--==========FAQS==========--}}
-    <section class="row faqs">
+    <section class="row faqs" id="nav-faq">
         <div class="container">
             <div class="row section-header wow fadeInUp">
                 <h2>faq</h2>
@@ -425,248 +202,24 @@
         </div>
     </section>
 
-    {{--==========Tech Specs==========--}}
-    <section class="row tech-specs">
+    {{--==========The Watch==========--}}
+    <section class="row the-watch">
         <div class="container">
-            <div class="row section-header wow fadeInUp">
-                <h2>tech specs</h2>
-                <p>Need more info? Please have a look at the tech specs of the watch. We’ve used Latest technology &amp; quality materials</p>
-            </div>
-            {{--==========Tech Specs Row==========--}}
-            <div class="row tech-specs-row">
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="0s">
-                    <h4>Compatibility</h4>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 text-center the-watch-img wow zoomIn">
+                    <img src="/images/theme/the-watch.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-6 the-watch-features">
+                    <div class="row section-header v3 wow fadeIn">
+                        <h2>White Label Options</h2>
+                        <p>With an image in the side of this conetent, you can use this section to write about some cool thing about your product or its features.</p>
+                    </div>
                     <ul class="nav">
-                        <li>iPhone iOS 7 &amp; up</li>
-                        <li>Android 4.3 &amp; uptexts</li>
-                        <li>Bluetooth 4.0</li>
-                        <li>Notification for calls / texts</li>
+                        <li class="wow fadeIn" data-wow-delay="0.2s">Compatible with all devices</li>
+                        <li class="wow fadeIn" data-wow-delay="0.4s">Android and iOS Support</li>
+                        <li class="wow fadeIn" data-wow-delay="0.6s">Activity &amp; Health Tracker</li>
+                        <li class="wow fadeIn" data-wow-delay="0.8s">Read &amp; reply to messages</li>
                     </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="0.3s">
-                    <h4>App</h4>
-                    <ul class="nav">
-                        <li>Set daily goals</li>
-                        <li>Analyze history</li>
-                        <li>Sync to phone &amp; cloud</li>
-                        <li>Connect to Apple health kit</li>
-                        <li>Connect to Google fit</li>
-                        <li>Watch firmware upgrade</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="0.6s">
-                    <h4>Vibration silent alarms</h4>
-                    <ul class="nav">
-                        <li>Phone notifications</li>
-                        <li>Daily goal reached</li>
-                        <li>Daily wake-up alarm</li>
-                        <li>Location assistance</li>
-                        <li>Accessiblity features</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="0.9s">
-                    <h4>Watch</h4>
-                    <ul class="nav">
-                        <li>12.6mm thickness</li>
-                        <li>3.16L stainless steel case</li>
-                        <li>40mm diameter</li>
-                        <li>5 ATM water resistant</li>
-                        <li>Sapphire glass crystal</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="1.2s">
-                    <h4>Straps</h4>
-                    <ul class="nav">
-                        <li>Italian leather with natural lining</li>
-                        <li>Comfort sport fabric</li>
-                        <li>Quick-release pins</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="1.5s">
-                    <h4>Activity tracking</h4>
-                    <ul class="nav">
-                        <li>Step counting</li>
-                        <li>Distance</li>
-                        <li>Calories burned</li>
-                        <li>Swimming (strokes)</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="1.8s">
-                    <h4>Timekeeping</h4>
-                    <ul class="nav">
-                        <li>Swiss ETA movement</li>
-                        <li>Accurate, reliable</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="2.1s">
-                    <h4>Battery power</h4>
-                    <ul class="nav">
-                        <li>Standard CR2025 6+ months</li>
-                        <li>Standard 364 for timekeeping 5+ years</li>
-                        <li>Solar Power available as aupgrade</li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-4 tech-spec wow fadeIn" data-wow-delay="2.4s">
-                    <h4>Sensors</h4>
-                    <ul class="nav">
-                        <li>MEMS 3-axis accelerometer</li>
-                        <li>Highly accurate</li>
-                        <li>Low power consumption</li>
-                    </ul>
-                </div>
-            </div>
-            {{--==========Tech Specs Row==========--}}
-            <div class="row tech-specs-row">
-            </div>
-            {{--==========Tech Specs Row==========--}}
-            <div class="row tech-specs-row">
-            </div>
-        </div>
-    </section>
-
-    {{--==========Team==========--}}
-    <section class="row team">
-        <div class="container">
-            <div class="row section-header wow fadeInUp">
-                <h2>meet the team</h2>
-                <p>We are a small group of inverntors, hackers and designers from the differrent parts of the world on a mission.</p>
-            </div>
-            <div class="row team_members">
-                {{--==========Member==========--}}
-                <div class="col-md-3 col-sm-6 member wow fadeInUp">
-                    <div class="row m0 inner">
-                        <div class="row m0 image">
-                            <img src="/images/theme/team-1.jpg" alt="">
-                        </div>
-                        <div class="texts row m0">
-                            <h4>Gary Elliott</h4>
-                            <h5>Co-Founder and CEO</h5>
-                        </div>
-                    </div>
-                </div>
-                {{--==========Member==========--}}
-                <div class="col-md-3 col-sm-6 member wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="row m0 inner">
-                        <div class="row m0 image">
-                            <img src="/images/theme/team-2.jpg" alt="">
-                        </div>
-                        <div class="texts row m0">
-                            <h4>Jeffrey Allen</h4>
-                            <h5>Co-Founder and CTO</h5>
-                        </div>
-                    </div>
-                </div>
-                {{--==========Member==========--}}
-                <div class="col-md-3 col-sm-6 member wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="row m0 inner">
-                        <div class="row m0 image">
-                            <img src="/images/theme/team-3.jpg" alt="">
-                        </div>
-                        <div class="texts row m0">
-                            <h4>Sara Mendez</h4>
-                            <h5>Lead Developer, Hacker</h5>
-                        </div>
-                    </div>
-                </div>
-                {{--==========Member==========--}}
-                <div class="col-md-3 col-sm-6 member wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="row m0 inner">
-                        <div class="row m0 image">
-                            <img src="/images/theme/team-4.jpg" alt="">
-                        </div>
-                        <div class="texts row m0">
-                            <h4>Albert Castro</h4>
-                            <h5>3D Designer &amp; Prototyper</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{--==========Timeline==========--}}
-    <section class="row timeline">
-        <div class="container">
-            <div class="row section-header wow fadeInUp">
-                <h2>timeline</h2>
-                <p>Here’s a roadmap of our product to highlight the milestones from the initial phase to delivery and future updates.</p>
-            </div>
-            <div class="row timeline-row">
-                <div class="row m0 timeline-post">
-                    <div class="bar-content">
-                        <div class="inner">now</div>
-                    </div>
-                </div>
-                <div class="row m0 timeline-post has-content wow fadeInUp">
-                    <div class="col-sm-6 half-side date">
-                        23 jan 2014
-                    </div>
-                    <div class="col-sm-6 half-side content">
-                        <div class="inner">
-                            <h4 class="title">Mass Production</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row m0 timeline-post has-content odd wow fadeInUp">
-                    <div class="col-sm-6 half-side date">
-                        23 jan 2014
-                    </div>
-                    <div class="col-sm-6 half-side content">
-                        <div class="inner">
-                            <h4 class="title">Testing Pre-Production Samples</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row m0 timeline-post has-content wow fadeInUp">
-                    <div class="col-sm-6 half-side date">
-                        23 jan 2014
-                    </div>
-                    <div class="col-sm-6 half-side content">
-                        <div class="inner">
-                            <h4 class="title">Croudfunding Campaign</h4>
-                            <p>And an optional description. You may add little description of your milestone if you want.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row m0 timeline-post has-content odd wow fadeInUp">
-                    <div class="col-sm-6 half-side date">
-                        23 jan 2014
-                    </div>
-                    <div class="col-sm-6 half-side content">
-                        <div class="inner">
-                            <h4 class="title">Preview at CES</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row m0 timeline-post wow fadeInUp">
-                    <div class="bar-content">
-                        <div class="inner">2015</div>
-                    </div>
-                </div>
-                <div class="row m0 timeline-post has-content wow fadeInUp">
-                    <div class="col-sm-6 half-side date">
-                        23 jan 2014
-                    </div>
-                    <div class="col-sm-6 half-side content">
-                        <div class="inner">
-                            <h4 class="title">3D Prototype &amp; Testing</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row m0 timeline-post has-content odd wow fadeInUp">
-                    <div class="col-sm-6 half-side date">
-                        23 jan 2014
-                    </div>
-                    <div class="col-sm-6 half-side content">
-                        <div class="inner">
-                            <h4 class="title">Research and Development</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row m0 timeline-post">
-                    <div class="bar-content">
-                        <div class="inner">idea</div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -692,11 +245,11 @@
     </section>
 
     {{--==========Newsletter==========--}}
-    <section class="row newsletter">
+    <section class="row newsletter" id="nav-free-kratom">
         <div class="container">
             <div class="row section-header wow fadeInUp">
-                <h2>newsletter</h2>
-                <p>Subscribe to our product newsletter to get notified when we launch the product or when we completed a milestone</p>
+              <h2>newsletter</h2>
+              <p>Subscribe to our product newsletter to get notified when we launch the product or when we completed a milestone</p>
             </div>
             <form action="php/subscribe.php" id="subscribeform" class="row newsletter-form" method="post">
                 <div class="input-group">

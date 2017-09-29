@@ -154,28 +154,28 @@ body.home header .navbar {
 
 /*=====The Product=====*/
 .feature-note {
-  color: #0084ff;
+  color: #4eb44c;
 }
 
 .feature-note .indicator .plus-icon:before {
-  border-color: #0084ff;
+  border-color: #4eb44c;
 }
 
 .feature-note .indicator .plus-icon:after {
-  background: #0084ff;
+  background: #4eb44c;
 }
 
 .feature-note .indicator .plus-icon .plus {
-  background: #0084ff;
+  background: #4eb44c;
   color: #fff;
 }
 
 .feature-note .feature-name:before {
-  background: #0084ff;
+  background: #4eb44c;
 }
 
 .feature-note .feature-name:after {
-  background: #0084ff;
+  background: #4eb44c;
 }
 
 /*=====How it Works=====*/

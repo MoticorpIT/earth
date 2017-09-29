@@ -977,8 +977,8 @@ header.video-bg {
 
 .top-banner .split-header + div{
   padding: 25px 0;
-  background: rgba(255,255,255,.2);
-  box-shadow: 0 0 10px #fff;
+  /*background: rgba(255,255,255,.2);*/
+  /*box-shadow: 0 0 10px #fff;*/
   border-radius: 5px;
   margin: -40px 0 0;
 }
@@ -1228,7 +1228,7 @@ header.video-bg {
 
 /*=========The Product==========*/
 .the-product {
-  padding: 110px 0 160px;
+  padding: 80px 0 160px; /*default = 110px 0 160px*/
 }
 
 @media (max-width: 767px) {
@@ -1240,7 +1240,8 @@ header.video-bg {
 
 @media (max-width: 767px) {
   .the-product img {
-    max-width: 200px;
+    max-width: 100%;
+    width: 320px;
   }
 }
 
@@ -1248,12 +1249,16 @@ header.video-bg {
   padding-top: 35px;
   position: relative;
 }
+.apple-watch-note-feature > img{
+  max-width: 100%;
+}
 
 @media (max-width: 767px) {
   .apple-watch-note-feature {
     width: auto;
     display: inline-block;
     margin: 0 auto;
+    max-width: 275px;
   }
 }
 
@@ -1280,7 +1285,7 @@ header.video-bg {
 @media (max-width: 767px) {
   .feature-note .indicator {
     width: 49px;
-    margin-top: 90px;
+    margin-top: 80px;
   }
 }
 
@@ -1336,9 +1341,10 @@ header.video-bg {
 }
 
 .feature-note .feature-name {
+  font-weight: bold;
   text-transform: uppercase;
   height: 91px;
-  line-height: 20px;
+  line-height: 1.2em;
   position: relative;
   letter-spacing: 0.2px;
 }
@@ -1384,32 +1390,50 @@ header.video-bg {
 }
 
 .feature-note.right.top {
-  top: 10px;
-  right: 220px;
+  top: 290px;
+  right: 110px;
+}
+
+.feature-note.right.top .feature-name::before{
+  top: 35px;
+}
+.feature-note.right.top .feature-name::after{
+  height: 48px;
+  top: 43px;
 }
 
 @media (max-width: 1199px) {
   .feature-note.right.top {
-    right: 130px;
+    right: 10px;
   }
 }
 
 @media (max-width: 991px) {
   .feature-note.right.top {
     right: 15px;
+    top: 190px;
   }
 }
 
 @media (max-width: 767px) {
   .feature-note.right.top {
     right: -110px;
-    top: -40px;
+    top: 22px;
+  }
+  .feature-note.right.top .feature-name::after{
+    height: 140px;
+  }
+  .feature-note.right.top .feature-name{
+    margin-top: -81px;
+  }
+  .apple-watch-note-feature{
+    margin-top: 50px;
   }
 }
 
 .feature-note.right.top .feature-name {
   float: left;
-  margin-left: -53px;
+  margin-left: -76px;
   -webkit-transform: scaleY(0);
       -ms-transform: scaleY(0);
           transform: scaleY(0);
@@ -1425,26 +1449,27 @@ header.video-bg {
 }
 
 .feature-note.right.bottom {
-  top: 290px;
-  right: 221px;
+  top: 50px;
+  right: 200px;
 }
 
 @media (max-width: 1199px) {
   .feature-note.right.bottom {
-    right: 121px;
+    right: 60px;
   }
 }
 
 @media (max-width: 991px) {
   .feature-note.right.bottom {
-    right: 88px;
+    right: 115px;
+    top: 15px;
   }
 }
 
 @media (max-width: 767px) {
   .feature-note.right.bottom {
-    right: -62px;
-    top: 175px;
+    right: -32px;
+    top: 36px;
   }
 }
 
@@ -1471,14 +1496,14 @@ header.video-bg {
 
 @media (max-width: 991px) {
   .feature-note.right.bottom .feature-name {
-    margin-left: -45px;
+    margin-left: -57px;
   }
 }
 
 @media (max-width: 767px) {
   .feature-note.right.bottom .feature-name {
     margin-left: -50%;
-    margin-top: 47px;
+    margin-top: 35px;
     height: 140px;
     padding-top: 120px;
   }
@@ -1522,31 +1547,39 @@ header.video-bg {
 }
 
 .feature-note.left.top {
-  top: 115px;
-  left: 205px;
+  top: 355px;
+  left: 85px;
+}
+.feature-note.left.top .feature-name{
+  margin-right: -68px;
 }
 
 @media (max-width: 1199px) {
   .feature-note.left.top {
-    left: 105px;
+    left: 15px;
+    top: 330px;
+  }
+  .feature-note.left.top .feature-name{
+    margin-right: -68px;
   }
 }
 
 @media (max-width: 991px) {
   .feature-note.left.top {
-    left: 0;
+    left: 15px;
+    top: 210px;
   }
 }
 
 @media (max-width: 767px) {
   .feature-note.left.top {
-    left: -110px;
-    top: 20px;
+    left: -113px;
+    top: -10px;
   }
 }
 
 .feature-note.left.top .feature-name {
-  margin-right: -47px;
+  margin-right: -83px;
   float: right;
   -webkit-transform: scaleY(0);
       -ms-transform: scaleY(0);
@@ -1556,9 +1589,17 @@ header.video-bg {
           transform-origin: bottom;
 }
 
+.feature-note.left.top .feature-name::before {
+  top: 35px;
+}
+.feature-note.left.top .feature-name::after{
+  height: 48px;
+  top: 43px;
+}
+
 @media (max-width: 991px) {
   .feature-note.left.top .feature-name {
-    margin-right: -47px;
+    margin-right: -85px;
   }
 }
 
@@ -1569,27 +1610,33 @@ header.video-bg {
 }
 
 .feature-note.left.bottom {
-  top: 395px;
-  left: 122px;
+  top: 155px;
+  left: 190px;
   height: auto;
+}
+.feature-note.left.bottom .indicator{
+  width: 102px;
+  overflow: hidden;
+  margin-top: 1px;
 }
 
 @media (max-width: 1199px) {
   .feature-note.left.bottom {
-    left: 22px;
+    left: 100px;
   }
 }
 
 @media (max-width: 991px) {
   .feature-note.left.bottom {
-    left: 5px;
+    left: 20px;
+    top: 120px;
   }
 }
 
 @media (max-width: 767px) {
   .feature-note.left.bottom {
-    left: -140px;
-    top: 220px;
+    left: -90px;
+    top: 125px;
   }
 }
 
@@ -1625,7 +1672,7 @@ header.video-bg {
 @media (max-width: 767px) {
   .feature-note.left.bottom .feature-name {
     margin-right: -50%;
-    top: 49px;
+    top: 39px;
     padding-top: 73px;
     -webkit-transform-origin: top;
         -ms-transform-origin: top;
@@ -1636,7 +1683,7 @@ header.video-bg {
 .feature-note.left.bottom .feature-name:before {
   position: relative;
   display: inline-block;
-  top: 0;
+  top: 1px;
   left: calc(100% + 5px);
 }
 
@@ -1700,7 +1747,8 @@ header.video-bg {
 
 @media (max-width: 991px) {
   .feature-note.show-cont.left.bottom .indicator .plus-icon:after {
-    width: 48px;
+    width: 60px;
+    margin-top: -17px;
   }
 }
 
@@ -1709,6 +1757,7 @@ header.video-bg {
       -ms-transform: scaleY(1);
           transform: scaleY(1);
 }
+
 
 /*=========How it Works==========*/
 .how-it-works {
