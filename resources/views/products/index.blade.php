@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row collections">
                 @foreach ($products as $product)
-                    <div class="col-sm-6 col-md-3 item wow fadeIn">
+                    <div class="col-sm-6 col-md-3 item wow fadeIn" style="min-height:458px;">
                         <div class="row m0 featured-img" style="width:263px;height:263px;background-color:#f6fbff;">
                             <img src="{{$product->img_url}}" alt="{{$product->name}}" style="max-width:60%;padding:10px;">
                         </div>

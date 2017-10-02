@@ -269,6 +269,94 @@ class CategoriesTableSeeder extends Seeder
 				[
 					'product_id' => '58',
 					'category_id' => '2'
+				],
+				[
+					'product_id' => '59',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '60',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '61',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '62',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '63',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '64',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '65',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '66',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '67',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '68',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '69',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '70',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '71',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '72',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '73',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '74',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '75',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '76',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '77',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '78',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '79',
+					'category_id' => '2'
+				],
+				[
+					'product_id' => '80',
+					'category_id' => '2'
 				]
 	        ]
 	    );
