@@ -15,19 +15,26 @@
         </div>
 
         <div class="collapse navbar-collapse" id="main-navbar">
-            <a href="http://indegogo.com/" class=" btn btn-warning pull-right hidden-sm hidden-xs">Back this project</a>
+            <a href="#nav-products" class=" btn btn-warning pull-right">Products</a>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown {{ Request::is('products') ? 'active' : '' }}">
-                    <a href="/products" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+                    <a href="/products" class="dropdown-toggle" data-toggle="dropdown">Strains <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/products/categories/powders">Powders</a></li>
-                        <li><a href="/products/categories/capsules">Capsules</a></li>
-                        <li><a href="/products/categories/extracts">Extracts</a></li>
+                        <li><a href="/products/categories/powders">Maeng Da</a></li>
+                        <li><a href="/products/categories/capsules">Red Maeng Da</a></li>
+                        <li><a href="/products/categories/extracts">White Maeng Da</a></li>
+                        <li><a href="/products/categories/powders">Bali</a></li>
+                        <li><a href="/products/categories/powders">Green Hulu Kapuas</a></li>
+                        <li><a href="/products/categories/powders">Red Hulu Kapuas</a></li>
+                        <li><a href="/products/categories/powders">Green Borneo</a></li>
+                        <li><a href="/products/categories/powders">White Borneo</a></li>
+                        <li><a href="/products/categories/powders">Green Malay</a></li>
+                        <li><a href="/products/categories/powders">Green Vietnam</a></li>
+                        <li><a href="/products/categories/powders">Trainwreck</a></li>
                     </ul>
                 </li>
-                <li class="{{ Request::is('about') ? 'active' : '' }}"><a href="/about">About Us</a></li>
-                <li class="{{ Request::is('faq') ? 'active' : '' }}"><a href="/faq">FAQ</a></li>
-                <li><a href="/#contact">contact</a></li>
+                <li class="{{ Request::is('faq') ? 'active' : '' }}"><a href="#nav-faq">FAQ</a></li>
+                <li class="{{ Request::is('free kratom') ? 'active' : '' }}"><a href="#nav-free-kratom">Free Kratom</a></li>
             </ul>
         </div>
     </div>
