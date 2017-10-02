@@ -165,13 +165,13 @@ li {
   border-radius: 30px;
   font: 300 12px/26px "Poppins", sans-serif;
   padding: 2px 33px 0;
-  color: #b4bcc3;
-  border-color: #e1e4e7;
+  color: #4eb44c;
+  border-color: #4eb44c;
 }
 
 .btn:hover, .btn:focus {
-  background: #374048;
-  border-color: #374048;
+  background: #0e8a0a;
+  border-color: #0e8a0a;
   color: #fff;
 }
 
@@ -288,7 +288,7 @@ li {
 }
 
 .btn-warning:hover, .btn-warning:focus {
-  background: #374048;
+  background: #0e8a0a;
   color: #fff;
 }
 
@@ -316,7 +316,12 @@ li {
 
 @media (max-width: 991px) {
   .btn-warning {
-    margin-bottom: 35px;
+    margin-bottom: 10px;
+  }
+
+  #main-navbar .nav{
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -892,11 +897,52 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navbar-default .navbar-collapse {
     background: #FFF;
-    margin: 20px 0px;
+    margin: 0;
     border-radius: 5px;
+    width: 230px;
+    text-align: center;
+    float: right;
   }
-  .alt-bg .navbar-default .navbar-collapse {
-    background: rgba(0, 0, 0, 0.84);
+  #main-navbar .nav{
+    padding: 0;
+  }
+  #main-navbar > .btn{
+    float: none;
+    width: 100%;
+  }
+  .alt-bg .navbar-default #main-navbar.navbar-collapse {
+    background: #374048;
+    padding-top: 15px;
+  }
+  .alt-bg .navbar-default.is-scrolling #main-navbar.navbar-collapse{
+    margin-bottom: -350px;
+    margin-top: -30px;
+  }
+  .navbar-default li.dropdown.open a.dropdown-toggle{
+    color: #ff6622;
+  }
+    float: none;
+    margin: 0 auto 10px;
+    display: block;
+    width: 100%;
+  }
+  .navbar-nav .open .dropdown-menu{
+    background: #3c464e;
+    padding: 0;
+  }
+  body #main-navbar .dropdown-menu li{
+    line-height: 1em;
+  }
+  body #main-navbar .dropdown-menu li a{
+    padding: 10px 5px;
+    display: block;
+    text-align: center;
+    text-transform: none;
+    line-height: 1em;
+  }
+  body #main-navbar .dropdown-menu li a:hover,
+  body #main-navbar .dropdown-menu li a:focus{
+    background: #313c46;
   }
   .alt-bg .navbar-default.is-scrolling .navbar-collapse {
     background: #FFF;
@@ -1939,6 +1985,16 @@ header.video-bg {
   padding: 140px 0 88px;
 }
 
+.btn.block-products-button{
+  font-size: 22px;
+  line-height: 46px;
+  margin: 20px 0 0;
+  background: #bbb;
+}
+.btn.block-products-button:hover{
+  background: #4eb44c;
+}
+
 .collections {
   padding-top: 15px;
 }
@@ -1949,11 +2005,15 @@ header.video-bg {
 }
 
 .collections .item .featured-img {
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
+  width: 263px;
+  height: 263px;
+  background: #fbfbfb;
 }
 
 .collections .item .featured-img img {
-  max-width: 100%;
+  max-width: 60%;
+  padding: 10px;
 }
 
 .collections .item .title {
@@ -2572,7 +2632,7 @@ header.video-bg {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(../images/mobile-ap-bg.jpg) no-repeat scroll center top;
+  background: url(../images/earth-kratom-header-background.jpg) no-repeat center center fixed;
   background-size: cover;
   opacity: 0.3;
 }
@@ -2663,9 +2723,11 @@ header.video-bg {
 
 .newsletter-form .form-control {
   font-size: 19px;
-  height: 80px;
+  height: 78px;
   line-height: 80px;
   padding: 0 38px;
+  position: relative;
+  top: 1px;
 }
 
 @media (max-width: 479px) {

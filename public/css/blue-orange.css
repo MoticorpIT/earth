@@ -31,23 +31,23 @@ Table of Content:
 /*=====Color Styles By Section=====*/
 /*===== GLOBAL =====*/
 a {
-  color: #0084ff;
+  color: #4eb44c;
 }
 
 a:hover, a:focus {
-  color: #003566;
+  color: #0e8a0a;
 }
 
 .btn-primary {
-  background: #0084ff;
+  background: #bbb;
 }
 
 .btn-warning {
-  background: #ff6622;
+  background: #4eb54b;
 }
 
 .btn-block {
-  background: #0084ff;
+  background: #4eb54b;
 }
 
 /*=====Header=====*/
@@ -79,7 +79,7 @@ header.row .navbar.is-scrolling .nav li a {
 }
 
 header.row .navbar.is-scrolling .nav li.active a {
-  color: #0084ff;
+  color: #4eb44c;
 }
 
 header.alt-bg .navbar-default .nav > li > a {
@@ -223,7 +223,7 @@ body.home header .navbar {
 
 /*=====Our Collection=====*/
 .collections .item .title {
-  color: #0084ff;
+  color: #374048;
 }
 
 .collections .item .category {
@@ -370,11 +370,14 @@ body.home header .navbar {
 }
 
 .newsletter-form .input-group .input-group-addon button {
-  background: #0084ff;
+  background: #4eb54b;
 }
 
 .newsletter-form .input-group .input-group-addon button:hover, .newsletter-form .input-group .input-group-addon button:focus {
-  background: #374048;
+  background: #0e8a0a;
+}
+.form-control:focus{
+  border-color: #4eb54b;
 }
 
 .newsletter-form p {
@@ -408,11 +411,11 @@ footer.row .menu-rights p {
 }
 
 .footer-menu li {
-  color: #99ceff;
+  color: #9ce49a;
 }
 
 .footer-menu li a {
-  color: #99ceff;
+  color: #9ce49a;
 }
 
 .footer-menu li a:hover, .footer-menu li a:focus {
@@ -425,7 +428,7 @@ footer.row .menu-rights p {
 }
 
 .social-links ul li a {
-  background: #99ceff;
+  background: #9ce49a;
   color: #fff;
 }
 

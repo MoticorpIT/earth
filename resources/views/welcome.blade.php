@@ -96,7 +96,7 @@
             <div class="row collections">
                 @foreach ($products as $product)
                     <div class="col-sm-6 col-md-3 item wow fadeIn">
-                        <div class="row m0 featured-img" style="width:263px;height:263px;background-color:#f6fbff;">
+                        <div class="row m0 featured-img">
                             <img src="{{$product->img_url}}" alt="{{$product->name}}" style="max-width:60%;padding:10px;">
                         </div>
                         <h4 class="title">{{$product->name}}</h4>
@@ -110,6 +110,9 @@
                         <a href="/products/{{$product->slug}}" class="btn">VIEW DETAILS</a>
                     </div>
                 @endforeach
+                <div class="col-sm-12">
+                  <a href="/products" class="btn btn-block btn-lg btn-warning block-products-button">View All Products</a>
+                </div>
             </div>
         </div>
     </section>
@@ -118,23 +121,122 @@
     <section class="row split-columns">
         <div class="row m0 split-column wow fadeIn">
             <div class="col-sm-6 image text-right">
-                <img src="/images/promo-trainwreck.jpg" alt="">
+                <img src="/images/promo-maeng-da.jpg" alt="">
             </div>
             <div class="col-sm-6 texts">
                 <div class="texts-inner row m0">
-                    <h2>Trainwreck</h2>
+                    <h2>Maeng Da</h2>
                     <p>As one of our best sellers, Trainwreck is our personal blend of 11 different kratom strains all colliding together to create a truly striking experience. This is something you won't want to miss.</p>
                 </div>
             </div>
         </div>
         <div class="row m0 split-column wow fadeIn">
             <div class="col-sm-6 col-sm-push-6 image">
-                <img src="/images/promo-malay.jpg" alt="">
+                <img src="/images/promo-red-maeng-da.jpg" alt="">
             </div>
             <div class="col-sm-6 col-sm-pull-6 texts">
                 <div class="texts-inner row m0">
+                    <h2>Red Maeng Da</h2>
+                    <p>One of our newest strains in our lineup. This strain really hones in on stress and works to create a clear mind and mellow mood.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 split-column wow fadeIn">
+            <div class="col-sm-6 image text-right">
+                <img src="/images/promo-white-maeng-da.jpg" alt="">
+            </div>
+            <div class="col-sm-6 texts">
+                <div class="texts-inner row m0">
+                    <h2>White Maeng Da</h2>
+                    <p>As one of our best sellers, Trainwreck is our personal blend of 11 different kratom strains all colliding together to create a truly striking experience. This is something you won't want to miss.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 split-column wow fadeIn">
+            <div class="col-sm-6 col-sm-push-6 image">
+                <img src="/images/promo-bali.jpg" alt="">
+            </div>
+            <div class="col-sm-6 col-sm-pull-6 texts">
+                <div class="texts-inner row m0">
+                    <h2>Bali</h2>
+                    <p>One of our newest strains in our lineup. This strain really hones in on stress and works to create a clear mind and mellow mood.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 split-column wow fadeIn">
+            <div class="col-sm-6 image text-right">
+                <img src="/images/promo-green-borneo.jpg" alt="">
+            </div>
+            <div class="col-sm-6 texts">
+                <div class="texts-inner row m0">
+                    <h2>Green Borneo</h2>
+                    <p>As one of our best sellers, Trainwreck is our personal blend of 11 different kratom strains all colliding together to create a truly striking experience. This is something you won't want to miss.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 split-column wow fadeIn">
+            <div class="col-sm-6 col-sm-push-6 image">
+                <img src="/images/promo-white-borneo.jpg" alt="">
+            </div>
+            <div class="col-sm-6 col-sm-pull-6 texts">
+                <div class="texts-inner row m0">
+                    <h2>White Borneo</h2>
+                    <p>One of our newest strains in our lineup. This strain really hones in on stress and works to create a clear mind and mellow mood.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 split-column wow fadeIn">
+            <div class="col-sm-6 image text-right">
+                <img src="/images/promo-green-hulu.jpg" alt="">
+            </div>
+            <div class="col-sm-6 texts">
+                <div class="texts-inner row m0">
+                    <h2>Green Hulu Kapuas</h2>
+                    <p>As one of our best sellers, Trainwreck is our personal blend of 11 different kratom strains all colliding together to create a truly striking experience. This is something you won't want to miss.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 split-column wow fadeIn">
+            <div class="col-sm-6 col-sm-push-6 image">
+                <img src="/images/promo-red-hulu.jpg" alt="">
+            </div>
+            <div class="col-sm-6 col-sm-pull-6 texts">
+                <div class="texts-inner row m0">
+                    <h2>Red Hulu Kapuas</h2>
+                    <p>One of our newest strains in our lineup. This strain really hones in on stress and works to create a clear mind and mellow mood.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 split-column wow fadeIn">
+            <div class="col-sm-6 image text-right">
+                <img src="/images/promo-green-malay.jpg" alt="">
+            </div>
+            <div class="col-sm-6 texts">
+                <div class="texts-inner row m0">
                     <h2>Green Malay</h2>
                     <p>One of our newest strains in our lineup. This strain really hones in on stress and works to create a clear mind and mellow mood.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 split-column wow fadeIn">
+            <div class="col-sm-6 col-sm-push-6 image">
+                <img src="/images/promo-green-vietnam.jpg" alt="">
+            </div>
+            <div class="col-sm-6 col-sm-pull-6 texts">
+                <div class="texts-inner row m0">
+                    <h2>Green Vietnam</h2>
+                    <p>One of our newest strains in our lineup. This strain really hones in on stress and works to create a clear mind and mellow mood.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m0 split-column wow fadeIn">
+            <div class="col-sm-6 image text-right">
+                <img src="/images/promo-trainwreck.jpg" alt="">
+            </div>
+            <div class="col-sm-6 texts">
+                <div class="texts-inner row m0">
+                    <h2>Trainwreck</h2>
+                    <p>As one of our best sellers, Trainwreck is our personal blend of 11 different kratom strains all colliding together to create a truly striking experience. This is something you won't want to miss.</p>
                 </div>
             </div>
         </div>
@@ -175,51 +277,33 @@
         <div class="container">
             <div class="row section-header wow fadeInUp">
                 <h2>faq</h2>
-                <p>Got questions? We’ve got answers. If you have some other questions, feel free to send us an email to <a href="#">hello@product.com</a></p>
+                <p>
+                  Got questions? We’ve got answers. If you don't see your question below, visit our full
+                    <a href="/faq">FAQ Page.</a>
+                   If at that point you still don't see your question, please feel free to send us an
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=help@karma-kratom.com" target="_blank">email</a>
+                </p>
             </div>
             <div class="row">
                 {{--==========Faq==========--}}
                 <div class="col-sm-6 faq wow fadeInUp">
-                    <h4>What is Watch? How it works?</h4>
-                    <p>Watch took center stage at this year's Product Show with a preview of watch OS 2. The next generation of Watch software is packed with features that just might turn the device from a nice-to-have into a must-have. If you already own an Apple Watch, you'll have to live with the old software until fall. You’ll love it at the first use.</p>
+                    <h4>What is Kratom?</h4>
+                    <p>Kratom is a natural botanical native to tropical Southeast Asia that is part of the coffee family. It's also known by its scientific name, Mitragyna speciosa. The people of Southeast Asia have used Kratom leaves as an herbal supplement and traditional remedy for hundreds of years.</p>
                 </div>
                 {{--==========Faq==========--}}
                 <div class="col-sm-6 faq wow fadeInUp">
-                    <h4>How the watch is made?</h4>
-                    <p>Watch has an anodized aluminum case (which is lighter than stainless steel) in silver or space gray, and the face is Ion-X glass, which also designed to be hard and rugged (as well as a little bit lighter) than the sapphire. It’s definitely the lightest of the three Apple Watch editions, making it an ideal exercise companion. </p>
+                    <h4>What are the effects of kratom?</h4>
+                    <p>Kratom can have varing effects on the body, depending on the dosage taken. It has been found that in lower dosages (1-3grams) the effects are more stimulating and result in increase energy. With higher dosages, the effects shift more towards sedative. This result increases as the dosage increases.</p>
                 </div>
                 {{--==========Faq==========--}}
                 <div class="col-sm-6 faq wow fadeInUp" data-wow-delay="0.3s">
-                    <h4>Can I swap out the watch band?</h4>
-                    <p>Absolutely. Watch comes with six bands that are easy to mix and match any band with any watch. You can swap them out as your heart desires without the aid of any tools—as long as the band and watch are the same size. (The Leather Loop band, for example, only fits 42mm watches, not the smaller 38mm size.) </p>
+                    <h4>What is the doseage for kratom?</h4>
+                    <p>The dosage of kratom varies depending on several factors. Your body size, stomach contents and tolerance could play a big role in determining your dosage. It would be advised to start with a low dosage (1 gram or so) and see what the effects are on you. If you liked it, stick with it. Not what you were looking for, make an adjustment. Eventually, you will find your groove.</p>
                 </div>
                 {{--==========Faq==========--}}
                 <div class="col-sm-6 faq wow fadeInUp" data-wow-delay="0.3s">
-                    <h4>So it’s a watch and a fitness tracker?</h4>
-                    <p>The accelerometer lets the watch count your steps, and it extrapolate distance on its own, or rely on the GPS in the paired Phone to trace your exact route. That step data comes in handy for two of the apps included on the watch: Activity and Workout. Both of the watch’s fitness apps sync data back to the Health and Fitness apps on your Phone.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{--==========The Watch==========--}}
-    <section class="row the-watch">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1 text-center the-watch-img wow zoomIn">
-                    <img src="/images/theme/the-watch.png" alt="" class="img-responsive">
-                </div>
-                <div class="col-md-6 the-watch-features">
-                    <div class="row section-header v3 wow fadeIn">
-                        <h2>White Label Options</h2>
-                        <p>With an image in the side of this conetent, you can use this section to write about some cool thing about your product or its features.</p>
-                    </div>
-                    <ul class="nav">
-                        <li class="wow fadeIn" data-wow-delay="0.2s">Compatible with all devices</li>
-                        <li class="wow fadeIn" data-wow-delay="0.4s">Android and iOS Support</li>
-                        <li class="wow fadeIn" data-wow-delay="0.6s">Activity &amp; Health Tracker</li>
-                        <li class="wow fadeIn" data-wow-delay="0.8s">Read &amp; reply to messages</li>
-                    </ul>
+                    <h4>I just placed my order, when should I receive it?</h4>
+                    <p>All Karma-Kratom.com products are processed and shipped within 24-48 hours, with most of them shipping the same day. Depending on your location, local/regional weather conditions and other circumstances, actual shipping times will vary. Typically, most orders arrive from 3-5 days after the order has been taken to the USPS. All packaging is labeled discreetly and you will receive a tracking number shortly after your order has been received.</p>
                 </div>
             </div>
         </div>
