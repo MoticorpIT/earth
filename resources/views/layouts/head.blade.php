@@ -6,7 +6,14 @@
 <title> @yield('meta-title', 'EarthKratom.com: Kratom Powders, Capsules and Extracts at Rock Bottom Prices') </title>
 
 {{-- Fonts --}}
-<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700'
+	rel='stylesheet'
+	type='text/css'>
+
+{{-- Favicon --}}
+<link rel="icon"
+      type="image/png"
+      href="/images/favicon.png">
 
 {{-- Plugin CSS Files --}}
 <link href="/css/lib/bootstrap.min.css" rel="stylesheet">

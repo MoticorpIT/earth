@@ -314,12 +314,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-push-6 wow fadeIn">
-                    <h2>Mobile App for watch</h2>
-                    <p>The smartwatch connects to your iPhone and other iOS devices using Bluetooth, alerting you to incoming calls, emails, messages and alerts. Customize your with over 1,000 watchapps found within the smartwatch app.</p>
-                    <div class="row m0 downloads-btns">
-                        <a href="#" class="dload-link"><img src="/images/theme/app-store.png" alt=""></a>
-                        <a href="#" class="dload-link"><img src="/images/theme/google-play.png" alt=""></a>
-                    </div>
+                    <h2>Available at <br />Fire Wholesale!</h2>
+                    <p>Earth Kratom is proud to be partnered with Fire Wholesale and is also available in a smoke shop near you!</p>
+                    <a href="http://firewholesale.com" class="btn btn-rounded btn-block" id="next-personal">Visit Fire Wholesale</a>
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 wow fadeInUp">
                     <img src="/images/theme/app-screen.png" alt="" class="mobile-img">
