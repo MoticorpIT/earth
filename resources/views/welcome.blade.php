@@ -281,17 +281,17 @@
                   Got questions? We’ve got answers. If you don't see your question below, visit our full
                     <a href="/faq">FAQ Page.</a>
                    If at that point you still don't see your question, please feel free to send us an
-                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=help@karma-kratom.com" target="_blank">email</a>
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=help@earthkratom.com" target="_blank">email</a>
                 </p>
             </div>
             <div class="row">
                 {{--==========Faq==========--}}
-                <div class="col-sm-6 faq wow fadeInUp">
+                <div class="col-sm-6 faq wow fadeInUp" data-wow-delay="0.1s">
                     <h4>What is Kratom?</h4>
                     <p>Kratom is a natural botanical native to tropical Southeast Asia that is part of the coffee family. It's also known by its scientific name, Mitragyna speciosa. The people of Southeast Asia have used Kratom leaves as an herbal supplement and traditional remedy for hundreds of years.</p>
                 </div>
                 {{--==========Faq==========--}}
-                <div class="col-sm-6 faq wow fadeInUp">
+                <div class="col-sm-6 faq wow fadeInUp" data-wow-delay="0.1s">
                     <h4>What are the effects of kratom?</h4>
                     <p>Kratom can have varing effects on the body, depending on the dosage taken. It has been found that in lower dosages (1-3grams) the effects are more stimulating and result in increase energy. With higher dosages, the effects shift more towards sedative. This result increases as the dosage increases.</p>
                 </div>
@@ -302,9 +302,12 @@
                 </div>
                 {{--==========Faq==========--}}
                 <div class="col-sm-6 faq wow fadeInUp" data-wow-delay="0.3s">
-                    <h4>I just placed my order, when should I receive it?</h4>
-                    <p>All Karma-Kratom.com products are processed and shipped within 24-48 hours, with most of them shipping the same day. Depending on your location, local/regional weather conditions and other circumstances, actual shipping times will vary. Typically, most orders arrive from 3-5 days after the order has been taken to the USPS. All packaging is labeled discreetly and you will receive a tracking number shortly after your order has been received.</p>
+                    <h4>Where can I buy Earth Kratom?</h4>
+                    <p>Earth Kratom can be found at any reputable smoke shops that is located in a town, county or state that has banned the sell and use of kratom. If your local shop does not sell Earth Kratom, please fill out this <a href="#nav-free-kratom">form</a> and we will send you both free samples.</p>
                 </div>
+            </div>
+            <div class="col-sm-12">
+                <a href="/faq" class="btn btn-block btn-lg btn-warning block-products-button">View All FAQs</a>
             </div>
         </div>
     </section>
